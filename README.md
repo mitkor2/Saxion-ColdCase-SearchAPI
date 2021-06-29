@@ -1,7 +1,7 @@
 # Saxion - Cold Case - News Search API
 
 
-# Setup documentation search engine
+# Setup 
 ## _Local – Linux/MacOS_
 
 1.	Make sure you have python 3.9 and pip 21 installed.
@@ -9,23 +9,46 @@
 3.	A SQL script is provided in the repository with the database articles used for testing.
 4.	Clone the Git repository to your local system.
 5.	Make sure you have virtualenv installed:
-a.	sudo pip3 install virtualenv
-6.	Create a virtual environment with the name of the project: virtualenv coldcaseenv
-7.	Activate the virtual environment: source coldcaseenv/bin/activate
-8.	Go inside the project folder, and copy the .env.example file, and make the name of the new file “.env”: cp .env.example .env
-9.	Fill this file with your own environment variables. The variables that need to be filled are already there.
-10.	Install the required packages: pip install -r requirements.txt
-11.	Now, migrate the database tables into the database with the following command: python manage.py migrate
-12.	It is time to start the server, which you can do with the following command: python manage.py runserver
+```
+sudo pip3 install virtualenv
+```
+6.	Create a virtual environment with the name of the project:
+```
+virtualenv coldcaseenv
+```
+8.	Activate the virtual environment: 
+```
+source coldcaseenv/bin/activate
+```
+9.	Go inside the project folder, and copy the .env.example file, and make the name of the new file “.env”:``` cp .env.example .env```
+10.	Fill this file with your own environment variables. The variables that need to be filled are already there.
+11.	Install the required packages:
+```
+pip install -r requirements.txt
+```
+12.	Now, migrate the database tables into the database with the following command: 
+```
+python manage.py migrate
+```
+14.	It is time to start the server, which you can do with the following command: 
+```
+python manage.py runserver
+```
 
 ## _Local- Windows_
 The setup for Windows is very similar to the one on Linux. These are the differences:
 Installing Python and pip:
 
 1.	As a windows user, you can get Python, including pip, from here: https://www.python.org/downloads/
-2.	Next, to install a virtual environment tool: pip3 install virtualenvwrapper-win 
-3.	Then, to start the virual environment, this is the command: mkvirtualenv coldcaseenv
-4.	The environment is activated automatically, so, now we can go on with step 8 
+2.	Next, to install a virtual environment tool:
+```
+pip3 install virtualenvwrapper-win 
+```
+4.	Then, to start the virual environment, this is the command:
+```
+mkvirtualenv coldcaseenv
+```
+5.	The environment is activated automatically, so, now we can go on with step 8 (Linux/MacOS Setup (above))
 
 ## _AWS_
 To install this project on an AWS server, the steps are very similar to the ones for the local machine. This is what needs to be done.
