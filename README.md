@@ -6,7 +6,7 @@
 ## _Local – Linux/MacOS_
 
 1.	Make sure you have python 3.9 and pip 21 installed.
-2.	This project uses a MySQL database, if you want to connect to a local MySQL database, make sure you have MySQL server installed ( https://dev.mysql.com/doc/mysql-installation-excerpt/5.7/en/ )
+2.	This project uses a MySQL database, if you want to connect to a local MySQL database, make sure you have MySQL server installed   https://dev.mysql.com/doc/mysql-installation-excerpt/5.7/en/
 3.	A SQL script is provided in the repository with the database articles used for testing.
 4.	Clone the Git repository to your local system.
 5.	Make sure you have virtualenv installed:
@@ -130,5 +130,5 @@ This deployment guide is inspired by: https://medium.com/saarthi-ai/ec2apachedja
 >Software Developer: [Luuk Cloosterman](https://www.linkedin.com/in/luuk-cloosterman/)<br />
 
 -------
-[![N|Solid](https://sdproject.eu/assets/images/rsz_sdp_logo_eng4.png)](https://sdproject.eu) <br />
-[![N|Solid](https://www.kennisid.nl/api/organisation/thumb/bpoC71F7D38-8715-4AEF-87F3-ACC08E8F5B26)](https://www.saxion.edu)
+[![SDP](https://sdproject.eu/assets/images/rsz_sdp_logo_eng4.png)](https://sdproject.eu) <br />
+[![Saxion](https://www.kennisid.nl/api/organisation/thumb/bpoC71F7D38-8715-4AEF-87F3-ACC08E8F5B26)](https://www.saxion.edu)
