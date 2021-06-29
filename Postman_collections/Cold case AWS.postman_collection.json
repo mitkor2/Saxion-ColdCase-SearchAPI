@@ -1,0 +1,138 @@
+{
+	"info": {
+		"_postman_id": "1ec80639-39ad-4dd3-9274-33e2ed17597e",
+		"name": "Cold case AWS",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Articles with search",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8000/articles?search=Enschede",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8000",
+					"path": [
+						"articles"
+					],
+					"query": [
+						{
+							"key": "search",
+							"value": "Enschede"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Articles",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://ec2-3-65-24-242.eu-central-1.compute.amazonaws.com/articles",
+					"protocol": "http",
+					"host": [
+						"ec2-3-65-24-242",
+						"eu-central-1",
+						"compute",
+						"amazonaws",
+						"com"
+					],
+					"path": [
+						"articles"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "News with search",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "X-CSRFToken",
+						"value": "6iodaUkE8itATKWcymni0UQz0vSvvSoxc1WWWJbEJifV2AH43XlgxcHJ62LDvdjY",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "formdata",
+					"formdata": []
+				},
+				"url": {
+					"raw": "http://ec2-3-65-24-242.eu-central-1.compute.amazonaws.com/news/enschede",
+					"protocol": "http",
+					"host": [
+						"ec2-3-65-24-242",
+						"eu-central-1",
+						"compute",
+						"amazonaws",
+						"com"
+					],
+					"path": [
+						"news",
+						"enschede"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "News",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "X-CSRFToken",
+						"value": "6iodaUkE8itATKWcymni0UQz0vSvvSoxc1WWWJbEJifV2AH43XlgxcHJ62LDvdjY",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "username",
+							"value": "Luuk",
+							"type": "text"
+						},
+						{
+							"key": "password",
+							"value": "adminadmin",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://ec2-3-65-24-242.eu-central-1.compute.amazonaws.com/news",
+					"protocol": "http",
+					"host": [
+						"ec2-3-65-24-242",
+						"eu-central-1",
+						"compute",
+						"amazonaws",
+						"com"
+					],
+					"path": [
+						"news"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

@@ -1,0 +1,14 @@
+asgiref==3.3.4
+certifi==2020.12.5
+chardet==4.0.0
+Django==3.2.2
+django-environ==0.4.5
+django-perms==2.1.0
+djangorestframework==3.12.4
+idna==2.10
+mysqlclient==2.0.3
+pytz==2021.1
+requests==2.25.1
+six==1.16.0
+sqlparse==0.4.1
+urllib3==1.26.4
