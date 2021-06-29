@@ -4,11 +4,11 @@
 
 ## Credits
 >Version: 0.0.3
-Project: Hot and Cold Case Project
-Аssignor: [Saxion University of Applied Sciences (Advanced Forensic Technology)](https://www.saxion.nl/opleidingen/voltijd/bachelor/forensisch-onderzoek) | Jaap Knotter
-Project Manager: [Tatjana Kuznecova](https://www.linkedin.com/in/tatjana-kuznecova-a8059211b/)
-Software Consultant: [Dimitar Rangelov](https://www.linkedin.com/in/dimitarrangelov/)  | [SDP](https://sdproject.eu)
-Software Developer: [Luuk Cloosterman](https://www.linkedin.com/in/luuk-cloosterman/)
+>Project: Hot and Cold Case Project
+>Аssignor: [Saxion University of Applied Sciences (Advanced Forensic Technology)](https://www.saxion.nl/opleidingen/voltijd/bachelor/forensisch-onderzoek) | Jaap Knotter
+>Project Manager: [Tatjana Kuznecova](https://www.linkedin.com/in/tatjana-kuznecova-a8059211b/)
+>Software Consultant: [Dimitar Rangelov](https://www.linkedin.com/in/dimitarrangelov/)  | [SDP](https://sdproject.eu)
+>Software Developer: [Luuk Cloosterman](https://www.linkedin.com/in/luuk-cloosterman/)
 
 To install this project on your local machine:
 
