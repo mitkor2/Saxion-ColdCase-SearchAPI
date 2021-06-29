@@ -28,6 +28,29 @@ Installing Python and pip:
 4.	The environment is activated automatically, so, now we can go on with step 8 
 
 ## _AWS_
+To install this project on an AWS server, the steps are very similar to the ones for the local machine. This is what needs to be done.
+
+1.	First, create an amazon EC2 instance, with SSH access to yourself, and http inbound requests for everyone.
+2.	SSH into this instance, with the keys you got during the setup of this instance.
+3.	Install the necessary packages: sudo apt-get install python3-pip apache2 libapache2-mod-wsgi-py3
+4.	This project uses a MySQL database, if you want to connect to a local MySQL database, make sure you have MySQL server installed ( https://dev.mysql.com/doc/mysql-installation-excerpt/5.7/en/ )
+5.	A SQL script is provided in the repository with the database articles used for testing.
+6.	Clone the Git repository to your local system.
+7.	Make sure you have virtualenv installed:
+a.	sudo pip3 install virtualenv
+8.	Create a virtual environment with the name of the project: virtualenv coldcaseenv
+9.	Activate the virtual environment: source coldcaseenv/bin/activate
+10.	Go inside the project folder, and copy the .env.example file, and make the name of the new file “.env”: cp .env.example .env
+11.	Fill this file with your own environment variables. The variables that need to be filled are already there.
+12.	Install the required packages: pip install -r requirements.txt
+13.	Now, migrate the database tables into the database with the following command: python manage.py migrate
+14.	Get out of the local instance with the following command: deactivate
+15.	Go to the root directory of the EC2 instance with: cd 
+16.	Go to the directory where the Apache configuration file is located, and edit it: sudo vi /etc/apache2/sites-available/000-default.conf
+17.	Replace the file with the following config:
+
+
+
 
 To install this project on your local machine:
 
