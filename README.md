@@ -2,6 +2,7 @@
 
 
 # Setup 
+-----
 ## _Local – Linux/MacOS_
 
 1.	Make sure you have python 3.9 and pip 21 installed.
@@ -34,7 +35,7 @@ python manage.py migrate
 ```
 python manage.py runserver
 ```
-
+-----
 ## _Local- Windows_
 The setup for Windows is very similar to the one on Linux. These are the differences:
 Installing Python and pip:
@@ -49,7 +50,7 @@ pip3 install virtualenvwrapper-win
 mkvirtualenv coldcaseenv
 ```
 5.	The environment is activated automatically, so, now we can go on with step 8 (Linux/MacOS Setup (above))
-
+-----
 ## _AWS_
 To install this project on an AWS server, the steps are very similar to the ones for the local machine. This is what needs to be done.
 
